@@ -1,0 +1,16 @@
+// Сброс стилей для кроссбраузерной верстки
+@import "normalize";
+
+
+// Общие стили для всего проекта
+@import 'common/fonts';
+@import 'common/vars';
+@import 'common/base';
+
+
+// Визуальные стили для стандартных тегов
+@import 'common/gui';
+
+
+// Подключение стилей конкретных компонентов
+@import 'components/component';
